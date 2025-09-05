@@ -54,7 +54,7 @@ const createDownload = (file, type, name, size, total_size) => {
 // Create Socket Connection
 const createSocketConnection = name => {
     localStorage.setItem("uploader-name", name.toLowerCase());
-    socket = io("http://localhost:3000", {
+    socket = io({
         auth: { name: name.toLowerCase() }
     });
 
