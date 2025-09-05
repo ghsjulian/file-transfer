@@ -24,7 +24,7 @@
 
 #### Start Date : 04 September 2025
 
-#### End Date : Working...
+#### End Date : 06 September 2025
 
 ---
 
@@ -66,25 +66,18 @@ npm run dev
 
 ---
 
-### Screensots And Demo (Desktop Mode) :
+### Screensots And Demo :
 
-<img src="/demo/d-1.jpg" /><br/><br/>
-<img src="/demo/d-2.jpg" /><br/><br/>
-<img src="/demo/d-3.jpg" /><br/><br/>
-<img src="/demo/d-4.jpg" /><br/><br/>
-<img src="/demo/d-5.jpg" /><br/><br/>
-<img src="/demo/d-6.jpg" /><br/><br/>
-<img src="/demo/d-7.jpg" /><br/><br/>
+<img src="/demo/1.jpg" /><br/><br/>
+<img src="/demo/2.jpg" /><br/><br/>
+<img src="/demo/3.jpg" /><br/><br/>
+<img src="/demo/4.jpg" /><br/><br/>
+<img src="/demo/5.jpg" /><br/><br/>
+<img src="/demo/6.jpg" /><br/><br/>
+<img src="/demo/7.jpg" /><br/><br/>
+<img src="/demo/8.jpg" /><br/><br/>
 
-### Screensots And Demo (Mobile Mode) :
 
-<img src="/demo/m-1.jpg" /><br/><br/>
-<img src="/demo/m-2.jpg" /><br/><br/>
-<img src="/demo/m-3.jpg" /><br/><br/>
-<img src="/demo/m-4.jpg" /><br/><br/>
-<img src="/demo/m-5.jpg" /><br/><br/>
-<img src="/demo/m-6.jpg" /><br/><br/>
-<img src="/demo/m-7.jpg" /><br/><br/>
 
 #### Thank You !
 

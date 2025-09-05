@@ -66,7 +66,7 @@ const createSocketConnection = name => {
         // selectBox.innerHTML = ""; // Clear existing options
         const myName = localStorage.getItem("uploader-name");
         clients.forEach(client => {
-            if (client + "j" !== myName) {
+            if (client !== myName) {
                 const option = document.createElement("option");
                 option.value = client;
                 option.textContent = client;
