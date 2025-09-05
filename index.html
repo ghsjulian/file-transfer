@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Real Time File Transfer Creqted By Ghs Julian</title>
+        <link rel="stylesheet" href="./css/index.css" />
+        <script src="./js/socket.io.min.js"></script>
+    </head>
+    <body>
+        <div class="upload-container">
+            <h2>Transfer File Via Socket</h2>
+            <span id="msg"></span>
+            <label for="files">
+                <svg
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
+                    ></path>
+                </svg>
+                <p>
+                    Select File From Your Storage<br />
+                    Supported Dormats : Anything (*)<br />
+                    Click To Browse
+                </p>
+            </label>
+            <input
+                type="file"
+                id="files"
+                hidden="true"
+                multiple="true"
+                accept="/*"
+            />
+            <select>
+                <option value="NONE">Select a reciver</option>
+            </select>
+            <div class="progress">
+                <p id="progress-size"></p>
+                <p id="layer"></p>
+            </div>
+            <button class="upload">Send File</button>
+        </div>
+        <div class="name-container">
+            <input type="text" placeholder="Enter Your Name" id="name" />
+            <button class="enter">GO</button>
+        </div>
+        <div class="download-container">
+            <h2>Download Received File</h2>
+            <div class="info">
+                <span>File Name : </span>
+                <span id="f-name"></span>
+            </div>
+            <div class="info">
+                <span>File Type : </span>
+                <span id="f-type"> </span>
+            </div>
+            <div class="info">
+                <span>File Size : </span>
+                <span id="f-size"> </span>
+            </div>
+            <div class="progress">
+                <p id="progress-size"></p>
+                <p id="layer"></p>
+            </div>
+            <div class="flex-btn">
+                <a class="view"> Cancel Download</a>
+                <a class="download">Download File</a>
+            </div>
+        </div>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>
